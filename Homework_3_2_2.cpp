@@ -1,10 +1,10 @@
-#include <iostream>
 #include <windows.h>
 
+#include <iostream>
 
 struct Account
 {
-    int number = 0;
+    unsigned int number = 0;
     std::string owner = "Владелец счета";
     double balance = 0;
 };
